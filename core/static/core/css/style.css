@@ -1,0 +1,145 @@
+
+/* StudentX Base Design */
+body {
+    background-color: #050505;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.studentx-navbar {
+    background-color: #050505;
+    padding: 22px 0;
+}
+
+.studentx-navbar .navbar-brand {
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+}
+
+.studentx-navbar .nav-link {
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.studentx-navbar .nav-link:hover {
+    color: #ffffff;
+}
+
+.studentx-navbar .btn {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* this is to keep StudentX logo on the left */
+.studentx-navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.studentx-navbar .navbar-brand {
+    margin-right: auto;
+}
+
+
+/* Welcome Section */
+.hero-section {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.hero-badge {
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 30px;
+    padding: 8px 15px;
+    color: #aaa;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.hero-title {
+    font-size: clamp(42px, 5vw, 70px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -2px;
+    margin-bottom: 25px;
+}
+
+.hero-description {
+    color: #aaa;
+    font-size: 17px;
+    max-width: 470px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* Campus Preview */
+.campus-preview {
+    background: #101010;
+    border: 1px solid #242424;
+    border-radius: 22px;
+    padding: 20px;
+}
+
+.campus-preview h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.preview-card {
+    background: #191919;
+    border: 1px solid #252525;
+    border-radius: 15px;
+    padding: 18px;
+    margin-bottom: 12px;
+}
+
+.preview-card:last-child {
+    margin-bottom: 0;
+}
+
+.preview-card small {
+    color: #888;
+    font-size: 11px;
+}
+
+.preview-card h5,
+.preview-card h6 {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.preview-card p {
+    color: #aaa;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.chat-reply {
+    background: #292929;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: right;
+    color: white !important;
+}
+
+@media (max-width: 991px) {
+    .hero-section {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .campus-preview {
+        margin-top: 50px;
+    }
+}
